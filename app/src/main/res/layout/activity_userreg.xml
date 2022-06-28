@@ -14,10 +14,10 @@
       android:text="CONFIRM"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.905"
+      app:layout_constraintHorizontal_bias="0.906"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.909" />
+      app:layout_constraintVertical_bias="0.976" />
 
   <Button
       android:id="@+id/btnbck"
@@ -27,19 +27,19 @@
       android:text="BACK"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.084"
+      app:layout_constraintHorizontal_bias="0.083"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.909" />
+      app:layout_constraintVertical_bias="0.976" />
 
   <EditText
       android:id="@+id/edtxtuser"
-      android:layout_width="214dp"
-      android:layout_height="45dp"
+      android:layout_width="281dp"
+      android:layout_height="44dp"
       android:background="#FBF8F8"
       android:ems="10"
+      android:hint="Username"
       android:inputType="textPersonName"
-      android:text="Username"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.441"
@@ -49,10 +49,11 @@
 
   <EditText
       android:id="@+id/edtxtpass"
-      android:layout_width="217dp"
-      android:layout_height="41dp"
+      android:layout_width="286dp"
+      android:layout_height="43dp"
       android:background="#FDFBFB"
       android:ems="10"
+      android:hint="Password"
       android:inputType="textPassword"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -63,10 +64,11 @@
 
   <EditText
       android:id="@+id/edtxtconf"
-      android:layout_width="214dp"
-      android:layout_height="48dp"
+      android:layout_width="292dp"
+      android:layout_height="50dp"
       android:background="#FFFBFB"
       android:ems="10"
+      android:hint="Confirm Password"
       android:inputType="textPassword"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +78,7 @@
       app:layout_constraintVertical_bias="0.761" />
 
   <ImageView
-      android:id="@+id/imageView2"
+      android:id="@+id/imgnote"
       android:layout_width="557dp"
       android:layout_height="311dp"
       app:layout_constraintBottom_toBottomOf="parent"

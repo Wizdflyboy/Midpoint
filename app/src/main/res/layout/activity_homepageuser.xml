@@ -65,6 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGOUT"
+        android:onClick="btnlogout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"
@@ -99,10 +100,11 @@
         app:layout_constraintVertical_bias="0.779" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnmuser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MENU"
+        android:onClick="btnmuser"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
@@ -111,10 +113,11 @@
         app:layout_constraintVertical_bias="0.667" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnouser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ORDER"
+        android:onClick="btnouser"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"

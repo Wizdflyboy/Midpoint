@@ -35,9 +35,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="106dp"
-        android:layout_height="40dp"
-        android:text="WELCOME"
+        android:layout_width="295dp"
+        android:layout_height="49dp"
+        android:text="WELCOME TO FOOD DELIVERY APP"
         android:textColor="#0E0E0E"
         android:textSize="18sp"
         android:textStyle="bold"
